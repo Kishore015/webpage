@@ -1,0 +1,112 @@
+
+header {
+    background-color: lightskyblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div {
+    margin:0px 30px;
+}
+
+nav button {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav button:hover {
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0px 5px;
+}
+
+img {
+    max-width: 100%;
+}
+a:hover {
+    color: black;
+}
+
+#no-color:hover {
+    color: white;
+}
+
+
+#hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+
+#hero-section a {
+    color: red;
+    font-weight: bolder;
+}
+
+#hero-section h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#hero-section p {
+    color: lightgray;
+    font-size: 25px;
+}
+
+
+.flex{
+    display: flex;
+}
+
+
+#services{
+    background-color: lightgray;
+    height: 500px;
+    padding-top: 50px;
+}
+
+#para-align {
+    text-align: center;
+}
+
+.border {
+    border: 1px solid white;
+    background-color: white;
+    margin: 0 20px;
+    height: 200px;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 6px;
+}
+
+
+/* footer{
+    height: 400px;
+} */
+
+.footer-flex {
+    display: flex;
+    justify-content: space-around
+}
+footer ul {
+    list-style-type: square;
+}
+footer a{
+    color: black;
+}
